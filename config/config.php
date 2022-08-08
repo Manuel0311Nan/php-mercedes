@@ -4,7 +4,7 @@ require_once(dirname(__FILE__) . '../../src/ayuda/functions.php');
 
 //Información sobre la base de datos y conexión a la API
 define('DOMAIN', 'https://concursocascocitan.es/public/');    //Enlace a la carpeta donde está alojada la plataforma
-define('SERVER', 'localhost:3306');                                                             //IP al servidor donde está alojada la plataforma. Por defecto localhost:3306
+define('SERVER', 'localhost');                                                             //IP al servidor donde está alojada la plataforma. Por defecto localhost:3306
 define('USER', 'root');                                                                 //Usuario de la base de datos. Será el nombre-de-la-empresa_nombre-evento
 define('PASS', '');                                             //Contraseña de la base de datos. Igual para todas
 define('DATABASE', 'mercedes');                                                 //Contraseña de la base de datos. Igual para todas
